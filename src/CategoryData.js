@@ -1,3 +1,3 @@
  export const data=[
-   "All Items", "men's clothing","jewelery","electronics","women's clothing"
+   "All Items","women's clothing","jewelery", "men's clothing","electronics"
 ]

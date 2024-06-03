@@ -3,6 +3,7 @@ import Category from '@/components/Category';
 import { toast } from 'react-toastify';
 
 
+
 export async function fetchdata() {
   try {
     const response = await axios.get("https://fakestoreapi.com/products",{cache:"force-cache"});
@@ -22,6 +23,7 @@ const Page = async() => {
  
   return (
     <div >
+      
    <Category initialData={initialData}/>
   </div>
   );

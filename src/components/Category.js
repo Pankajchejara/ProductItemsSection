@@ -33,7 +33,7 @@ const Category = ({ initialData }) => {
 
   return (
     <div>
-         <div className=' flex flex-col fixed w-full  gap-y-4 top-0 py-3 z-10 bg-black mx-auto'>
+         <div className=' flex flex-col fixed w-full   gap-y-4 top-0 py-3 z-10 bg-black mx-auto'>
             <Navbar/>
       <div className="w-full z-10 gap-x-8 rounded-md p-4 flex flex-wrap gap-y-3 justify-center items-center">
         {data.map((category, index) => (
