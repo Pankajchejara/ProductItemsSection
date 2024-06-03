@@ -31,3 +31,24 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Customize the width of the scrollbar */
+::-webkit-scrollbar {
+  width: 6px; /* Adjust the width as needed */
+}
+
+/* Customize the track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: black; /* Light gray background */
+}
+
+/* Customize the thumb (scroll handle) */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Dark gray color */
+  border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+/* Customize the thumb when hovered */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker gray color on hover */
+}
