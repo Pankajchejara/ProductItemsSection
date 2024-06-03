@@ -22,7 +22,7 @@ const Page = async() => {
   const initialData=await fetchdata()
  
   return (
-    <div >
+    <div className='bg-black' >
       
    <Category initialData={initialData}/>
   </div>

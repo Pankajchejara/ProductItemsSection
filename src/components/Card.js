@@ -49,7 +49,7 @@ if(words){
         <CiBookmark className='absolute top-2 right-2 text-black text-3xl hover:text-gray-400'/>
       </div>
       <div className="p-4">
-        <h2 className="text-lg font-bold mb-2">{getTitle()}</h2>
+        <h2 className="text-lg font-bold mb-2 text-white">{getTitle()}</h2>
         <p className="text-gray-500 text-sm mb-2">{product.category}</p>
         <p className="text-gray-400 mb-3">
           {getDescription()}
